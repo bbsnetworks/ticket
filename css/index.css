@@ -1,0 +1,88 @@
+label{
+	font-weight: 600;
+}
+.main{
+    background-image: linear-gradient(to bottom, #000000, #313131, #5f5f5f, #929292, #c9c9c9);
+}
+.formulario{
+	width: 80%;
+	margin: 50px;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.dinamicos{
+	margin-top: 50px;
+}
+.compra-item { 
+	margin-bottom: 10px; 
+}
+.compra-item input { 
+	margin-right: 5px; 
+}
+.btn { 
+	padding: 5px 10px; 
+}
+.txt-ticket{
+	height: 10%;
+}
+.txt-ticket>span{
+	font-size: 2rem;
+    text-align: left;
+    font-family: Arial Black;
+    font-weight: bold;
+    background: rgb(0, 161, 228);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4), 0px -1px 1px rgba(0, 0, 0, 0.3);
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+.input-p>input{
+	margin: 10px;
+}
+.compraContainer{
+	margin: 25px 0px 25px 0px ;
+}
+.titulo,.fecha{
+	margin: 15px 0px;
+}
+.enviar{
+	height: 150px;
+}
+.agregar>button{
+	height: 50px;
+	width: 210px;
+	background-color: var(--blue);
+	color: white;
+}
+.agregar>button>i{
+	margin-right: 5px;
+}
+.enviar>button{
+	height: 50px;
+	width: 150px;
+	color: white;
+	background-color: var(--orange);
+}
+.enviar>button>i{
+	margin-right: 10px;
+}
+.form-check{
+	margin-top: 20px;
+}
+.form-check-label>i{
+	margin-left: 10px;
+}
+@media (max-width: 991.98px) {
+    .btn-danger {
+		width: 100px;
+	}
+	.agregar{
+		margin-bottom: 20px;
+	}
+	.txt-ticket>span {
+		text-align: center;
+	}
+}
